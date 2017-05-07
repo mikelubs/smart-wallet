@@ -27,6 +27,12 @@ LOGIN
 ***********************************************/
 .login {
   text-align: center;
+  min-height: 550px;
+  background: rgb(255, 230, 240);
+}
+
+.main-login {
+  padding-top: 210px;
 }
 
 /**********************************************
@@ -38,4 +44,7 @@ FOOTER
 ***********************************************/
 .footer {
   text-align: center;
+  color: #fff;
+  background: rgb(77, 0, 31);
+  padding: 20px;
 }
