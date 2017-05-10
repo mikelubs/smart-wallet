@@ -10,24 +10,40 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style3.css" />
     <link href="css/styles.css" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Pacifico|Quicksand|Scope+One" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.2.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
   </head>
   <body>
+
+    <ul class="cb-slideshow">
+        <li><span>Image 01</span><div></div></li>
+        <li><span>Image 02</span><div></div></li>
+        <li><span>Image 03</span><div></div></li>
+        <li><span>Image 04</span><div></div></li>
+        <li><span>Image 05</span><div></div></li>
+        <li><span>Image 06</span><div></div></li>
+    </ul>
 
     <!-- HEADER -->
     <div class="container-fluid header">
       <div class="row">
         <div class="col-lg-12">
-          <h1>Smart Wallet</h1>
-          <h2>Track Your Money</h2>
+          <h1 class="top">Smart Wallet</h1> <br>
+          <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+          <h2 class="top2">Track Your Money</h2>
         </div>
       </div>
     </div>
@@ -36,11 +52,17 @@
     <div class="container-fluid login">
       <div class="row">
         <div class="col-lg-12 main-login">
-          <h3>User ID</h3>
+          <i class="fa fa-user" aria-hidden="true"></i><br>
+          <h3 class="user1">User ID</h3>
+
           <form class="login-a" id="form-a" action="index.html" method="post">
-            <input type="text" name="" value="" placeholder="Your ID..." required=""> <br>
-            <button type="submit" name="button">Login</button>
+            <input type="text" class="id" id="name1" name="" value="" placeholder="Your ID..." required=""> <br>
+            <button type="submit" name="button" class="btn1">Login</button>
           </form>
+
+          <div class="">
+            <p id="result1"></p>
+          </div>
         </div>
       </div>
     </div>
@@ -49,6 +71,7 @@
     <div class="container-fluid form-1">
       <div class="row">
         <div class="col-lg-6">
+          <p id="auth"></p>
           <h3>Expenses</h3>
           <form class="form-a" id="form-a" action="index.html" method="post">
             <h4>FOOD</h4>
@@ -104,10 +127,6 @@
     </div>
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.2.0.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+
   </body>
 </html>
