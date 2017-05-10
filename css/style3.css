@@ -23,11 +23,11 @@
     opacity: 0;
     z-index: 0;
 	-webkit-backface-visibility: hidden;
-    -webkit-animation: imageAnimation 36s linear infinite 0s;
-    -moz-animation: imageAnimation 36s linear infinite 0s;
-    -o-animation: imageAnimation 36s linear infinite 0s;
-    -ms-animation: imageAnimation 36s linear infinite 0s;
-    animation: imageAnimation 36s linear infinite 0s;
+    -webkit-animation: imageAnimation 90s linear infinite 0s;
+    -moz-animation: imageAnimation 90s linear infinite 0s;
+    -o-animation: imageAnimation 90s linear infinite 0s;
+    -ms-animation: imageAnimation 90s linear infinite 0s;
+    animation: imageAnimation 90s linear infinite 0s;
 }
 
 li {
@@ -41,11 +41,11 @@ li {
     width: 100%;
     text-align: center;
     opacity: 0;
-    -webkit-animation: titleAnimation 36s linear infinite 0s;
-    -moz-animation: titleAnimation 36s linear infinite 0s;
-    -o-animation: titleAnimation 36s linear infinite 0s;
-    -ms-animation: titleAnimation 36s linear infinite 0s;
-    animation: titleAnimation 36s linear infinite 0s;
+    -webkit-animation: titleAnimation 90s linear infinite 0s;
+    -moz-animation: titleAnimation 90s linear infinite 0s;
+    -o-animation: titleAnimation 90s linear infinite 0s;
+    -ms-animation: titleAnimation 90s linear infinite 0s;
+    animation: titleAnimation 90s linear infinite 0s;
 }
 .cb-slideshow li div h3 {
     font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
@@ -56,79 +56,79 @@ li {
 }
 .cb-slideshow li:nth-child(1) span { background-image: url(../img/wallet.jpg) }
 .cb-slideshow li:nth-child(2) span {
-    background-image: url(../img/wallet2.jpeg);
-    -webkit-animation-delay: 6s;
-    -moz-animation-delay: 6s;
-    -o-animation-delay: 6s;
-    -ms-animation-delay: 6s;
-    animation-delay: 6s;
+    background-image: url(../img/wallet.jpg);
+    -webkit-animation-delay: 15s;
+    -moz-animation-delay: 15s;
+    -o-animation-delay: 15s;
+    -ms-animation-delay: 15s;
+    animation-delay: 15s;
 }
 .cb-slideshow li:nth-child(3) span {
-    background-image: url(../img/wallet3.jpeg);
-    -webkit-animation-delay: 12s;
-    -moz-animation-delay: 12s;
-    -o-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s;
+    background-image: url(../img/wallet.jpg);
+    -webkit-animation-delay: 30s;
+    -moz-animation-delay: 30s;
+    -o-animation-delay: 30s;
+    -ms-animation-delay: 30s;
+    animation-delay: 30s;
 }
 .cb-slideshow li:nth-child(4) span {
-    background-image: url(../img/wallet4.jpeg);
-    -webkit-animation-delay: 18s;
-    -moz-animation-delay: 18s;
-    -o-animation-delay: 18s;
-    -ms-animation-delay: 18s;
-    animation-delay: 18s;
+    background-image: url(../img/wallet.jpg);
+    -webkit-animation-delay: 45s;
+    -moz-animation-delay: 45s;
+    -o-animation-delay: 45s;
+    -ms-animation-delay: 45s;
+    animation-delay: 45s;
 }
 .cb-slideshow li:nth-child(5) span {
-    background-image: url(../img/wallet5.jpeg);
-    -webkit-animation-delay: 24s;
-    -moz-animation-delay: 24s;
-    -o-animation-delay: 24s;
-    -ms-animation-delay: 24s;
-    animation-delay: 24s;
+    background-image: url(../img/wallet.jpg);
+    -webkit-animation-delay: 60s;
+    -moz-animation-delay: 60s;
+    -o-animation-delay: 60s;
+    -ms-animation-delay: 60s;
+    animation-delay: 60s;
 }
 .cb-slideshow li:nth-child(6) span {
-    background-image: url(../img/wallet6.jpeg);
-    -webkit-animation-delay: 30s;
-    -moz-animation-delay: 30s;
-    -o-animation-delay: 30s;
-    -ms-animation-delay: 30s;
-    animation-delay: 30s;
+    background-image: url(../img/wallet.jpg);
+    -webkit-animation-delay: 75s;
+    -moz-animation-delay: 75s;
+    -o-animation-delay: 75s;
+    -ms-animation-delay: 75s;
+    animation-delay: 75s;
 }
 .cb-slideshow li:nth-child(2) div {
-    -webkit-animation-delay: 6s;
-    -moz-animation-delay: 6s;
-    -o-animation-delay: 6s;
-    -ms-animation-delay: 6s;
-    animation-delay: 6s;
+    -webkit-animation-delay: 15s;
+    -moz-animation-delay: 15s;
+    -o-animation-delay: 15s;
+    -ms-animation-delay: 15s;
+    animation-delay: 15s;
 }
 .cb-slideshow li:nth-child(3) div {
-    -webkit-animation-delay: 12s;
-    -moz-animation-delay: 12s;
-    -o-animation-delay: 12s;
-    -ms-animation-delay: 12s;
-    animation-delay: 12s;
-}
-.cb-slideshow li:nth-child(4) div {
-    -webkit-animation-delay: 18s;
-    -moz-animation-delay: 18s;
-    -o-animation-delay: 18s;
-    -ms-animation-delay: 18s;
-    animation-delay: 18s;
-}
-.cb-slideshow li:nth-child(5) div {
-    -webkit-animation-delay: 24s;
-    -moz-animation-delay: 24s;
-    -o-animation-delay: 24s;
-    -ms-animation-delay: 24s;
-    animation-delay: 24s;
-}
-.cb-slideshow li:nth-child(6) div {
     -webkit-animation-delay: 30s;
     -moz-animation-delay: 30s;
     -o-animation-delay: 30s;
     -ms-animation-delay: 30s;
     animation-delay: 30s;
+}
+.cb-slideshow li:nth-child(4) div {
+    -webkit-animation-delay: 45s;
+    -moz-animation-delay: 45s;
+    -o-animation-delay: 45s;
+    -ms-animation-delay: 45s;
+    animation-delay: 45s;
+}
+.cb-slideshow li:nth-child(5) div {
+    -webkit-animation-delay: 60s;
+    -moz-animation-delay: 60s;
+    -o-animation-delay: 60s;
+    -ms-animation-delay: 60s;
+    animation-delay: 60s;
+}
+.cb-slideshow li:nth-child(6) div {
+    -webkit-animation-delay: 75s;
+    -moz-animation-delay: 75s;
+    -o-animation-delay: 75s;
+    -ms-animation-delay: 75s;
+    animation-delay: 75s;
 }
 @-webkit-keyframes imageAnimation {
 	0% {

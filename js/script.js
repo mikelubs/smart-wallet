@@ -2,7 +2,7 @@ var userids = $("input#name1").val();
 var text = "";
 var userid = function(userids){
     if ((userids !== "mike") && (userids !== "irene")) {
-      return text = "Oohps!! Wrong user ID. Please Try Again.";
+      return text = "Oohps!! Wrong user ID.";
     }
     else {
       $(".login").slideUp();
