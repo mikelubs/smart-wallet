@@ -24,13 +24,13 @@ HEADER
   text-align: center;
   color: #fff;
   position: relative;
-  background: rgba(0, 0, 0, 0.9);
+  background: #fff;
   z-index: 3;
 }
 
 .fa-credit-card-alt {
   font-size: 2em;
-  color: #fff;
+  color: #000;
 }
 
 .top {
@@ -41,7 +41,7 @@ HEADER
 
 .top2 {
   font-family: 'Handlee', cursive;
-  color: #fff;
+  color: #000;
   letter-spacing: 1px;
 }
 
@@ -126,14 +126,22 @@ INPUT AREA
   z-index: 3;
 }
 
+.form-a input {
+  margin: 5px;
+}
+
+.form-1 h2, h3, h4 {
+  color: #fff;
+}
+
 /**********************************************
 FOOTER
 ***********************************************/
 .footer {
   text-align: center;
-  color: #fff;
+  color: #000;
   position: relative;
-  background: rgba(0, 0, 0, 0.9);
+  background: #fff;
   text-align: center;
   padding: 15px;
   font-family: 'Quicksand', sans-serif;
