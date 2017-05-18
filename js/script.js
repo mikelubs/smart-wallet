@@ -7,7 +7,7 @@ var userid = function(userids){
     else {
       $(".login").fadeOut();
       $(".form-1").fadeIn();
-      return text = "Success";
+      return text = "";
     }
   };
 
@@ -70,9 +70,18 @@ $(document).ready(function(){
       $(".others").text(others);
       $(".others1").text(others1);
 
+      $(".form-1").fadeOut();
+      $("#output").fadeIn();
+
       var result2 = percentages(percentage);
         document.getElementById("result2").innerHTML = result2;
         event.preventDefault();
+      });
+
+      $("button.btn5").click(function(){
+        $(".login").fadeIn();
+        $(".form-1").hide();
+        $("#output").fadeOut();
       });
 
   });
