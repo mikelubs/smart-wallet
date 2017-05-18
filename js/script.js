@@ -11,21 +11,6 @@ var userid = function(userids){
     }
   };
 
-  // var income1 = parseInt($("input#income1").val());
-  // var reason1 = $("input#reason1").val();
-  // var income2 = parseInt($("input#income2").val());
-  // var reason2 = $("input#reason2").val();
-  //
-  // var food = parseInt($("input#food").val());
-  // var transport = parseInt($("input#transport").val());
-  // var others = parseInt($("input#others").val());
-  // var others1 = $("input#others1").val();
-
-
-
-
-
-
 $(document).ready(function(){
   $("form#form-a").submit(function(event) {
     var userids = $("input#name1").val();
@@ -38,7 +23,7 @@ $(document).ready(function(){
 
     // Decalring Vaiables
     var income1, income2, food, transport, others, expenses,incomes, evaluation, percentage = 0;
-    var reason1, reason2, others1, text2 = ""
+    var reason1, reason2, others1, text2 = "";
 
     // Creating the function that calculates percentage of income used
     var percentages = function(percentage){
@@ -53,13 +38,15 @@ $(document).ready(function(){
       console.log(evaluation);
       console.log(percentage);
 
-      if (percentage > 50) {
+      if (percentage >=70) {
         $(".login").hide();
-        return text2 = "Oohps!";
-      }else {
+        return text2 = "Yeah, you saved a good amount. We look foward to a great day Tomorrow";
+      }else if (50 <= percentage < 70) {
         $(".login").hide();
-        return text2 = "Success";
-
+        return text2 = "Yeah, you saved more than half your income";
+      } else {
+        $(".login").hide();
+        return text2 = "Put in more effort tomorrow";
       }
     };
 
@@ -74,6 +61,14 @@ $(document).ready(function(){
       others = parseInt($("input#others").val());
       others1 = $("input#others1").val();
 
+      $(".income1").text(income1);
+      $(".reason1").text(reason1);
+      $(".income2").text(income2);
+      $(".reason2").text(reason2);
+      $(".food").text(food);
+      $(".transport").text(transport);
+      $(".others").text(others);
+      $(".others1").text(others1);
 
       var result2 = percentages(percentage);
         document.getElementById("result2").innerHTML = result2;
