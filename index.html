@@ -10,25 +10,174 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style3.css" />
     <link href="css/styles.css" rel="stylesheet">
-
-
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Pacifico|Quicksand|Scope+One|Handlee|Pacifico|Comfortaa" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-
-
-
-
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-3.2.0.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+    <script type="text/javascript" src="js/modernizr.custom.86080.js"></script>
+  </head>
+  <body>
+
+    <ul class="cb-slideshow">
+        <li><span></span><div></div></li>
+        <li><span></span><div></div></li>
+        <li><span></span><div></div></li>
+        <li><span></span><div></div></li>
+        <li><span></span><div></div></li>
+        <li><span></span><div></div></li>
+    </ul>
+
+    <!-- HEADER -->
+    <div class="container-fluid header">
+      <div class="row">
+        <div class="col-lg-12">
+          <h1 class="top">Smart Wallet</h1> <br>
+          <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+          <h2 class="top2">Track Your Money</h2>
+        </div>
+      </div>
+    </div>
+
+    <!-- USER LOGIN PAGE -->
+    <div class="container-fluid login">
+      <div class="row">
+        <div class="col-lg-12 main-login">
+          <i class="fa fa-user" aria-hidden="true"></i><br>
+          <h3 class="user1">User ID</h3>
+
+          <form class="login-a" id="form-a" action="index.html" method="post">
+            <input type="text" class="id" id="name1" name="" value="" placeholder="Your ID..." required=""> <br>
+            <button type="submit" name="button" class="btn1">Login</button>
+          </form>
+
+          <div class="">
+            <p id="result1"></p><br>
+            <p class="new-id">To get a new ID, E-mail Us at smart.wallet@info.co.ke</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- USER INPUT FORM -->
+    <div class="container-fluid form-1">
+      <div class="row">
+          <h2 class="hd1">Hi, Everyday Is An Awesome Day!!</h2>
+          <h3 class="hd2">Let's End Yours In Style:</h3>
+
+          <form class="form-a" id="form-1" action="index.html" method="post">
+            <div class="col-lg-6">
+              <p id="auth"></p>
+              <h3 class="hd3">How much did you spend on:</h3>
+              <h4 class="hd4">FOOD</h4>
+              <input type="number" id="food" name="" value="" placeholder="Kshs..." required="">
+              <h4 class="hd5">TRANSPORT</h4>
+              <input type="number" id="transport" name="" value="" placeholder="Kshs..." required="">
+              <h4 class="hd6">OTHERS (Specify)</h4>
+              <input type="number" id="others" name="" value="" placeholder="Kshs..." required=""><br>
+              <input type="text" id="others1" name="" value="" placeholder="Specify" required="">
+            </div>
+
+            <div class="col-lg-6">
+              <h3 class="hd7">Incomes</h3>
+              <input type="number" id="income1" name="" value="" placeholder="Kshs..." required="">
+              <input type="text" id="reason1" name="" value="" placeholder="Source..." required=""> <br>
+              <input type="number" id="income2" name="" value="" placeholder="Kshs...">
+              <input type="text" id="reason2" name="" value="" placeholder="Source..."> <br>
+            </div>
+
+            <button class="btn6" type="submit" name="button">Submit</button>
+
+          </form>
+
+        </div>
+      </div>
+
+    <div class="container-fluid" id="output">
+      <div class="row">
+        <div class="col-lg-6">
+          <table>
+            <tr>
+              <th>EXPENSES</th>
+              <th>INCOMES</th>
+              <th>REASON</th>
+            </tr>
+            <tr>
+              <td>Kshs.<span class="food"></span> </td>
+              <td>N/A</td>
+              <td>Food</td>
+            </tr>
+            <tr>
+              <td>Kshs.<span class="transport"></span> </td>
+              <td>N/A</td>
+              <td>Transport</td>
+            </tr>
+            <tr>
+              <td>Kshs.<span class="others"></span> </td>
+              <td>N/A</td>
+              <td><span class="others1"></span></td>
+            </tr>
+            <tr>
+              <td>N/A</td>
+              <td>Kshs.<span class="income1"></span></td>
+              <td><span class="reason1"></span></td>
+            </tr>
+            <tr>
+              <td>N/A</td>
+              <td>Kshs.<span class="income2"></span></td>
+              <td><span class="reason2"></span></td>
+            </tr>
+          </table>
+          </div>
+
+          <div class="col-lg-6">
+            <h2>Summary</h2>
+            <table>
+              <tr>
+                <td>Total Expenditure</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Total Income</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Amount Saved</td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Percentage Saved</td>
+                <td></td>
+              </tr>
+            </table>
+          </div>
+          <div class="col">
+            <p id="result2"></p>
+          </div>
+
+          <button class="btn5" type="button" name="button">Close</button>
+
+      </div>
+    </div>
+
+    <div class="container-fluid footer">
+      <div class="row">
+        <div class="col-lg-12">
+          <p>&copy 2017: Smart Wallet</p>
+        </div>
+      </div>
+    </div>
+
+
+
   </body>
 </html>

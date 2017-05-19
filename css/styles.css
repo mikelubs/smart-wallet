@@ -1,0 +1,206 @@
+ /**********************************************
+GENERAL
+***********************************************/
+
+.form-1 {
+  display: none;
+}
+
+#output {
+  display: none;
+}
+
+/**********************************************
+HEADER
+***********************************************/
+.header {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  background: rgba(212, 205, 205, 0.6);
+  z-index: 3;
+}
+
+.fa-credit-card-alt {
+  font-size: 2em;
+  color: #000;
+}
+
+.top {
+  font-family: 'Comfortaa', cursive;
+  color: #F15A29;
+  letter-spacing: 1px;
+}
+
+.top2 {
+  font-family: 'Handlee', cursive;
+  color: #000;
+  letter-spacing: 1px;
+}
+
+/**********************************************
+LOGIN
+***********************************************/
+.login {
+  text-align: center;
+  min-height: 550px;
+  color: #fff;
+  position: relative;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 3;
+}
+
+.main-login {
+  padding-top: 190px;
+}
+
+.fa-user {
+  font-size: 3.5em;
+  color: #F15A29;
+}
+
+.btn1 {
+  margin-top: 15px;
+  padding: 5px 25px;
+  border-radius: 5px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  background: #000;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.btn1:hover {
+  background: #F15A29;
+  color: #000;
+}
+
+.id {
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: rgb(204, 0, 82);
+}
+
+.user1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #fff;
+}
+
+#result1 {
+  font-family: 'Scope One', serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 15px 0 0 0;
+  color: #F15A29;
+}
+
+.new-id {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 15px 0 0 0;
+  color: #fff;
+}
+
+/**********************************************
+INPUT AREA
+***********************************************/
+
+.form-1 {
+  background: #fff;
+  min-height: 550px;
+  text-align: center;
+  position: relative;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 3;
+}
+
+.form-a input {
+  margin: 5px;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.form-1 h2, h3, h4 {
+  color: #fff;
+}
+
+.hd1, .hd3, .hd4, .hd5, .hd6, .hd7 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.hd2 {
+  font-family: 'Pacifico', cursive;
+  letter-spacing: 1px;
+}
+
+button {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.btn6 {
+  margin: 25px 0px;
+  padding: 5px 10px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+
+}
+
+/**********************************************
+OUTPUT AREA
+***********************************************/
+#output {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  color: #fff;
+  text-align: center;
+
+}
+
+table {
+  margin-left: 30%;
+  background: #FFF;
+  color: #000;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 20px 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn5 {
+  padding: 5px 15px;
+  color: #000;
+  margin: 5px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+#result2 {
+  color: #000;
+  padding: 8px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/**********************************************
+FOOTER
+***********************************************/
+.footer {
+  text-align: center;
+  color: #000;
+  position: relative;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+  font-family: 'Quicksand', sans-serif;
+  letter-spacing: 1px;
+  z-index: 10;
+}
